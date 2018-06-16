@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ensemble.controllers.AboutUsController">
+   <children>
+      <Label layoutX="122.0" layoutY="23.0" prefHeight="21.0" prefWidth="371.0" style="-fx-font-weight: bold;" text="Электронное учебное пособие по курсу ">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="89.0" layoutX="14.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/about_us.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="236.0" layoutY="52.0" style="-fx-font-weight: bold;" text="&quot;Кибербезопасность&quot;" />
+      <Label layoutX="122.0" layoutY="173.0" prefHeight="17.0" prefWidth="318.0" text="Автор и разработчик курса: Талипов Сергей Николаевич" />
+      <Label layoutX="122.0" layoutY="322.0" text="Программу разработали: Мысак Андрей Константинович" />
+      <Label layoutX="265.0" layoutY="338.0" text="Мысак Сергей Константинович" />
+      <Label layoutX="326.0" layoutY="206.0" prefHeight="17.0" prefWidth="114.0" text="Контактные данные:" />
+      <Label layoutX="281.0" layoutY="223.0" text="Талипов Серегй Николаевич" />
+      <Label layoutX="324.0" layoutY="240.0" text="talipovsn@gmail.com" />
+      <Label layoutX="340.0" layoutY="258.0" text="+7-777-935-38-75" />
+      <ImageView fitHeight="136.0" fitWidth="128.0" layoutX="458.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/talipov_sn.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="122.0" layoutY="100.0" text="Курс предназначен для обучения студентов вузов и колледжей" />
+      <Label layoutX="121.0" layoutY="114.0" text="основам кибербезопасности и защите информации" />
+   </children>
+</AnchorPane>
